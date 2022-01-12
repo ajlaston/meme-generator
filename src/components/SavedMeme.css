@@ -1,0 +1,27 @@
+.saved-memes { 
+    border: 1px solid blueviolet;
+    min-height: 300px;
+    position: relative;
+    overflow: scroll;
+    width: 100%;
+}
+
+.meme-list {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 8.5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 700px){
+    .meme-list {
+        grid-template-columns: repeat(3, 115px);
+        gap: 10px;
+    }
+}

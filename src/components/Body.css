@@ -1,0 +1,16 @@
+main {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    height: 689px;
+}
+
+.body-content {
+    border: 1px black solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+
